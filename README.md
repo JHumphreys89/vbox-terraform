@@ -15,7 +15,7 @@ Will provide further information when it becomes available.
 This project makes use of Terraform and VirtualBox in order to deploy VMs. I chose to make this lab using VirtualBox since the resources do not cost money in order to download, install, or use. 
 
 ## Support
-* For questions and support regarding OCI: [_click here_](https://docs.oracle.com/en-us/iaas/developer-tutorials/tutorials/tf-provider/01-summary.htm)
+* For questions and support regarding VirtualBox: [_click here_](https://www.virtualbox.org/manual/)
 
 * For questions and support regarding Terraform: [_click here_](https://developer.hashicorp.com/terraform/docs)
 
