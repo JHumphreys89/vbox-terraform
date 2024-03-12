@@ -5,9 +5,8 @@
 *.tfstate
 *.tfstate.*
 
-# Crash log files
-crash.log
-crash.*.log
+# Ignore all log files
+*.log
 
 # Exclude all .tfvars files, which are likely to contain sensitive data, such as
 # password, private keys, and other secrets. These should not be part of version 
@@ -32,3 +31,12 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+# Ignore hcl files
+*.hcl
+
+# Ignore Terraform Lock file
+terraform.lock.hcl
+
+# Ignore all files in any directory named csv
+csv/
