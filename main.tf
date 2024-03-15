@@ -1,7 +1,7 @@
 terraform {
   required_providers {
     virtualbox = {
-      source = "terraform.local/local/virtualbox"
+      source = ".terraform.d/plugins/terraform.local/local/virtualbox"
       version = "0.2.2-alpha.1"
     }
   }
