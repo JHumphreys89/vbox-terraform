@@ -15,7 +15,9 @@ Will provide further information when it becomes available.
 This project makes use of Terraform and VirtualBox in order to deploy VMs. I chose to make this lab using VirtualBox since the resources do not cost money in order to download, install, or use. 
 
 ## Support
-For questions and support regarding VirtualBox: [_click here_](https://www.virtualbox.org/manual/). For questions and support regarding Terraform: [_click here_](https://developer.hashicorp.com/terraform/docs)
+For questions and support regarding VirtualBox: [_click here_](https://www.virtualbox.org/manual/). 
+For questions and support regarding Terraform: [_click here_](https://developer.hashicorp.com/terraform/docs). 
+To check out the Terraform Registry page for VirtualBox: [_click here_](https://registry.terraform.io/providers/terra-farm/virtualbox/latest/docs/resources/vm#url).
 
 ## Roadmap
 This project plans to accomplish the following:
@@ -30,7 +32,7 @@ This project plans to accomplish the following:
 | 6         | Complete documentation                                                                                          |
 
 ## Authors and acknowledgment
-[Jon Humphreys](https://jonhumphreys.com)
+[Jon Humphreys](https://jonhumphreys.com)<br>
 \| [Twitter](https://twitter.com/JonHumphreys16) \| [LinkedIn](https://www.linkedin.com/in/jonehumphreys/) \|
 
 ## License
