@@ -3,7 +3,7 @@ locals {
 }
 
 resource "virtualbox_vm" "vm" {
-    for_each { for inst in local.instances : inst.vm_name => inst if inst.os == "windows" }
+    for_each = { for inst in local.instances : inst.vm_name => inst if inst.os == "windows" }
 
     name   = each.value.vm_name
     image  = var.win_server_image

@@ -3,7 +3,7 @@ locals {
 }
 
 resource "virtualbox_vm" "vm" {
-    for_each { for inst in local.instances : inst.vm_name => inst if inst.os == "linux" }
+    for_each = { for inst in local.instances : inst.vm_name => inst if inst.os == "linux" }
 
     name   = each.value.vm_name
     image  = var.oracle_linux_image

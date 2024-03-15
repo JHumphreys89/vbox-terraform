@@ -19,6 +19,6 @@ variable "default_vm_status" {
 }
 
 variable "VAR_csv_file" {
-    description = "Location of CSV file"
-    default = ""
+    description = "Location of CSV file which is hardcoded at this time"
+    default = "./csv/sample.csv"
 }

@@ -16,3 +16,8 @@ variable "default_vm_status" {
     description = "Default state of VM after creation"
     default = "running"
 }
+
+variable "VAR_csv_file" {
+    description = "Location of CSV file which is hardcoded at this time"
+    default = "./csv/sample.csv"
+}
