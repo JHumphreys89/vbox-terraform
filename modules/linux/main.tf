@@ -7,7 +7,9 @@ resource "virtualbox_vm" "vm" {
 
     name   = each.value.vm_name
     image  = var.oracle_linux_image
+    # cpus - int, default is 2
     cpus   = each.value.cpus
+    # memory in MB/MiB - string - default is 512MB
     memory = each.value.memory
 
     #Machine status can be "poweroff" or "running" (running is the default value)
