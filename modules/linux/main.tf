@@ -5,9 +5,9 @@ locals {
 resource "virtualbox_vm" "vm" {
     for_each { for inst in local.instances : inst.vm_name => inst if inst.os == "linux" }
 
-    name = each.value.vm_name
-    image = var.oracle_linux_image
-    cpus = each.value.cpus
+    name   = each.value.vm_name
+    image  = var.oracle_linux_image
+    cpus   = each.value.cpus
     memory = each.value.memory
 
     #Machine status can be "poweroff" or "running" (running is the default value)
@@ -18,7 +18,7 @@ resource "virtualbox_vm" "vm" {
     #user_data = file("${path.module}/user_data")
 
     network_adapter {
-        type = "hostonly"
+        type           = "hostonly"
         host_interface = "vboxnet1"
     }
 

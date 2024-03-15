@@ -14,5 +14,11 @@ variable "oracle_linux_image" {
 
 variable "default_vm_status" {
     description = "Default state of VM after creation"
+    type = string
     default = "running"
+}
+
+variable "VAR_csv_file" {
+    description = "Location of CSV file"
+    default = ""
 }
