@@ -153,9 +153,9 @@ The **CSV location** is hardcoded through the variable `VAR_csv_file` which can 
 | lin_2   | 1    | 2      | linux      |
 
 # Support
-For questions and support regarding VirtualBox: [_click here_](https://www.virtualbox.org/manual/). 
-For questions and support regarding Terraform: [_click here_](https://developer.hashicorp.com/terraform/docs). 
-To check out the Terraform Registry page for VirtualBox: [_click here_](https://registry.terraform.io/providers/terra-farm/virtualbox/latest/docs/resources/vm#url).
+- For questions and support regarding VirtualBox: [_click here_](https://www.virtualbox.org/manual/). 
+- For questions and support regarding Terraform: [_click here_](https://developer.hashicorp.com/terraform/docs). 
+- To check out the Terraform Registry page for VirtualBox: [_click here_](https://registry.terraform.io/providers/terra-farm/virtualbox/latest/docs/resources/vm#url).
 
 # License
 This project is licensed under the MIT License. [Learn more](https://opensource.org/licenses/MIT)
