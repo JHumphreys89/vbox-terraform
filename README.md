@@ -159,6 +159,3 @@ The **CSV location** is hardcoded through the variable `VAR_csv_file` which can 
 
 # License
 This project is licensed under the MIT License. [Learn more](https://opensource.org/licenses/MIT)
-
-# Buy Me a Coffee 🍵
-If this helped you and you want to send me a _thanks_, you can "send me a coffee" using [this link](https://www.buymeacoffee.com/jhumphreys89). In this day and age, anything is welcome and much appreciated 😀.
