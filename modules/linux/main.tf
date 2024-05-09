@@ -59,6 +59,11 @@ resource "virtualbox_vm" "vm" {
 #  value = element(virtualbox_vm.node.*.network_adapter.0.ipv4_address, 1)
 #}
 
+#Untested
+output "IPAddr" {
+  value = [for virtualbox_vm.vm : vm.network_adapter.ipv4_address]
+}
+
 #output "IPAddr_2" {
 #  value = element(virtualbox_vm.node.*.network_adapter.0.ipv4_address, 2)
 #}
